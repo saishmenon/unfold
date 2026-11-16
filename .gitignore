@@ -1,0 +1,9 @@
+node_modules
+src-tauri/target
+src-tauri/gen
+dist
+build.log
+.DS_Store
+CONTEXT.md
+template-cleanup
+__pycache__
