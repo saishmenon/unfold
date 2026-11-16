@@ -4,7 +4,7 @@
 
 Unfold is for people who want writing to feel easy again. Your notes are plain `.md` files in a folder you choose. No account, no cloud, no subscription.
 
-> Unfold is an early preview (v0.1.0). Expect rough edges, and please tell me about them.
+> **Alpha (v0.1.0-alpha.1).** Unfold is early and still changing. Expect rough edges, keep a backup of important notes, and please tell me what breaks.
 
 ## Why Unfold
 
