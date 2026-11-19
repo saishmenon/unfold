@@ -27,10 +27,24 @@ Unfold is for people who want writing to feel easy again. Your notes are plain `
 ## Install
 
 1. Download the latest `.dmg` from [Releases](../../releases).
-2. Open it and drag **Unfold** into Applications.
-3. The first time, **right-click Unfold → Open**, then click **Open**.
-   Unfold isn't signed with an Apple developer certificate yet, so macOS asks you to confirm once.
-   If macOS still blocks it, go to **System Settings → Privacy & Security** and click **Open Anyway**.
+2. Open it and drag **Unfold** into **Applications**.
+3. Open Unfold. macOS will say it **can't verify the developer**. Click **Done**.
+4. Go to **System Settings → Privacy & Security**, scroll down, and click **Open Anyway** next to Unfold.
+5. Click **Open Anyway** once more and enter your Mac password if asked.
+
+You only do this once. Unfold isn't signed with a paid Apple developer certificate yet, so macOS asks you to confirm it.
+
+<details>
+<summary>Prefer Terminal? One command does the same thing</summary>
+
+After step 2, run:
+
+```sh
+xattr -dr com.apple.quarantine /Applications/Unfold.app
+```
+
+This removes the "downloaded from the internet" mark from Unfold only. Then open it normally.
+</details>
 
 Requires a Mac with Apple silicon (M1 or later).
 
